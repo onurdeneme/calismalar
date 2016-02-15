@@ -1,50 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Onur DENEME</title>
+	<title>Onur Yilmaz</title>
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.0.min.js"></script>
 </head>
 <body>
 <script>
 $(document).ready(function () {
-	$('#onur_1').click(function () {
-		 $('html,body').animate({ scrollTop: $("#onur_baslik1").offset().top}, 'slow');
+	$('#cssbtn').click(function () {
+		 $('html,body').animate({ scrollTop: $("#css_text").offset().top}, 'slow');
 	});
-	$('#onur_2').click(function () {
-		 $('html,body').animate({ scrollTop: $("#onur_baslik2").offset().top}, 'slow');
+	$('#htmlbtn').click(function () {
+		 $('html,body').animate({ scrollTop: $("#html_text").offset().top}, 'slow');
 	});
-	$('#onur_3').click(function () {
-		 $('html,body').animate({ scrollTop: $("#onur_baslik3").offset().top}, 'slow');
+	$('#javascriptbtn').click(function () {
+		 $('html,body').animate({ scrollTop: $("#javascript_text").offset().top}, 'slow');
 	});
 });
 </script>
 <style type="text/css">
-.onur_btn {
+.btn {
     background: none repeat scroll 0 0 #2b5d8e;
     float: left;
     height: 64px;
     margin: 0 5px 5px 23px;
     width: 30%;
 }
-#content {
+.content {
 	margin-top: 1000px;
 }
 </style>
 <div style="width: 100%">
-<div id="onur_1" class="onur_btn"></div>
-<div id="onur_2" class="onur_btn"></div>
-<div id="onur_3" class="onur_btn"></div>
+<div id="cssbtn" class="btn"></div>
+<div id="htmlbtn" class="btn"></div>
+<div id="javascriptbtn" class="btn"></div>
 </div>
 <br clear="all" />
 
-<div id="content">
-<p id="onur_baslik1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras posuere urna erat, ut molestie mauris accumsan et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec diam velit, faucibus vitae felis ac, maximus sodales leo. Vestibulum at sodales orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed placerat sollicitudin sem, vitae mattis neque fringilla at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam at ligula turpis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras posuere urna erat, ut molestie mauris accumsan et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec diam velit, faucibus vitae felis ac, maximus sodales leo. Vestibulum at sodales orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed placerat sollicitudin sem, vitae mattis neque fringilla at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam at ligula turpis.</p>
+<div class="content">
+<p id="css_text">Cascading Style Sheets (Basamakli Stil sablonlari ya da Basamakli Bicim Sayfalari, bilinen kisa adiyla CSS), HTML'e ek olarak metin ve format bicimlendirme alaninda fazladan olanaklar sunan bir Web teknolojisidir.</p>
+<p>Internet sayfalari icin genelgecer sablonlar hazirlama olanagi verdigi gibi, bagimsiz olarak harflerin stilini, yani renk, yazi tipi, buyukluk gibi ozelliklerini degistirmek icin de kullanilabilir. Bu teknigin en onemli ozelligi kullanimindaki esnekliktir.</p>
+<p>
+Bir Web sayfasi icerisinde birbiriyle uyumlu birkac renk ve birkac yazi tip kullanilir ve bunlari her sayfada ayri ayri tekrar belirtmek yerine CSS yardimiyla bir sefer tanimlayip butun Web sayfalarinda ortak olarak kullanilabilir. Boylece sayfalarin hafizadaki boyutu epey kuculdugu gibi guncelleme yapmak da kolaylasir.</p>
+<p>CSS kodlari, HTML kodlarinin icine yazilabildigi gibi harici bir CSS dosyasi olusturularak da islem yaptirilabilir. Turune gore <BODY> veya <HEAD> bolumlerinde yer alabilirler. Onlari ayri dosyada veya dosyalarda saklamak, onlari degisik HTML sayfalarinca kullanilmasini saglar, ayni sayfanin degisik aygitlara gore formatlandirilmasini kolaylastirir, sunumla yapiyi ayirarak degisiklik yapilmasini ekonomiklestirir.</p>
 </div>
-<div id="content">
-<p id="onur_baslik2">Morbi aliquet mauris id placerat elementum. Aenean varius cursus nunc. Mauris sit amet ante purus. Donec ut nunc risus. Cras nec sem ante. Nam ultrices porttitor orci at faucibus. Proin eget nibh vel augue pretium pulvinar non sed magna. Maecenas nec orci velit. Nam eget sapien neque. Praesent et odio et massa venenatis volutpat ac eu tortor. Proin facilisis eros orci, laoreet volutpat lorem posuere rutrum. Sed rhoncus pellentesque ultrices. Donec lorem nisi, dictum vel blandit at, luctus eget nibh. Ut at tellus ex.Morbi aliquet mauris id placerat elementum. Aenean varius cursus nunc. Mauris sit amet ante purus. Donec ut nunc risus. Cras nec sem ante. Nam ultrices porttitor orci at faucibus. Proin eget nibh vel augue pretium pulvinar non sed magna. Maecenas nec orci velit. Nam eget sapien neque. Praesent et odio et massa venenatis volutpat ac eu tortor. Proin facilisis eros orci, laoreet volutpat lorem posuere rutrum. Sed rhoncus pellentesque ultrices. Donec lorem nisi, dictum vel blandit at, luctus eget nibh. Ut at tellus ex.</p>
+<div class="content">
+<p id="html_text">Hiper Metin Isaretleme Dili (Ingilizce Hypertext Markup Language, ks. HTML) web sayfalarini olusturmak icin kullanilan standart metin isaretleme dilidir. Dilin son surumu HTML5'tir.</p>
+<p>HTML, bir programlama dili olarak tanimlanamaz. Zira HTML kodlariyla kendi basina calisan bir program yazilamaz. Ancak bu dili yorumlayabilen programlar araciligiyla calisabilen programlar yazilabilir. Programlama dili denilememesinin nedeni tam olarak budur. Temel geregi yazi, goruntu, video gibi degisik verileri ve bunlari iceren sayfalari birbirine basitce baglamak, buna ek olarak soz konusu sayfalarin web tarayicisi yazilimlari tarafindan duzgun olarak goruntulenmesi icin gerekli kurallari belirlemektir. HTML kodunu web tarayicilari okur, yorumlar ve gorsel hale donustururler, dolayisiyla ayni HTML kodunun farkli tarayicilarda farkli sonuc vermesi olasidir. CSS ve JavaScript ile beraber kullanildiginda HTML vasitasiyla gorsel ve dinamik web siteleri yaratilabilir.</p>
 </div>
-<div id="content" style="margin-bottom:1000px;">
-<p id="onur_baslik3">Vestibulum eleifend leo ut rhoncus volutpat. Suspendisse eu aliquam magna. Integer ultricies tempus rutrum. Nulla facilisi. Aenean ac blandit lorem. Aenean maximus imperdiet arcu quis fermentum. Duis eu enim at risus imperdiet volutpat quis eu elit. Suspendisse est tellus, vestibulum id est eu, faucibus tempus ligula. Integer ipsum nibh, tincidunt et convallis ac, tempus quis lectus. Aenean lacinia dictum felis quis fermentum. Mauris egestas molestie tempus.Vestibulum eleifend leo ut rhoncus volutpat. Suspendisse eu aliquam magna. Integer ultricies tempus rutrum. Nulla facilisi. Aenean ac blandit lorem. Aenean maximus imperdiet arcu quis fermentum. Duis eu enim at risus imperdiet volutpat quis eu elit. Suspendisse est tellus, vestibulum id est eu, faucibus tempus ligula. Integer ipsum nibh, tincidunt et convallis ac, tempus quis lectus. Aenean lacinia dictum felis quis fermentum. Mauris egestas molestie tempus.</p>
+<div class="content" style="margin-bottom:1000px;">
+<p id="javascript_text">JavaScript, yaygin olarak web tarayicilarinda kullanilmakta olan dinamik bir programlama dilidir. JavaScript ile yazilan istemci tarafi betikler sayesinde tarayicinin kullaniciyla etkilesimde bulunmasi, tarayicinin kontrol edilmesi, asenkron bir sekilde sunucu ile iletisime gecilmesi ve web sayfasi iceriginin degistirilmesi gibi islevler saglanir. JavaScript, Node.js gibi platformlar sayesinde sunucu tarafinda da yaygin olarak kullanilmaktadir.</p>
+<p>JavaScript prototip-tabanli, dinamik turlere ve birinci-sinif fonksiyonlara sahip bir betik dilidir. Nesne yonelimli, imperatif ve fonksiyonel programlama prensiplerine sahiptir.</p>
+<p>JavaScript ve Java arasinda; isimleri, yazim sekli ve standart kutuphanelerindeki benzerlikler disinda bir baglanti yoktur ve iki dilin semantikleri cok farklidir. JavaScript'in yazim sekli C programlama dilinden turetilmis, semantigi ve tasarimi ise Self ve Scheme programlama dillerinden esinlenmistir.</p>
 </div>
 </body>
 </html>
